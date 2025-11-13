@@ -34,7 +34,7 @@ Extend the Wizard Stylus IDE with an embedded Google Gemini assistant that helps
 ## Weekly Progress
 
 ### Week 1 (ends Oct 31)
-**Goals:** Research Wizard codebase, confirm Gemini SDK compatibility, draft `llm.tx` guidance.  
+**Goals:** Went through arbitrum stylus documentation, setup wizard IDE, supbase, environment variables, confirm Gemini SDK compatibility, draft `llm.tx` guidance.  
 **Progress Summary:** Mapped EditorPage layout, identified injection points for an overlay, produced first version of `llm.tx` with IDE navigation notes.
 
 ### Week 2 (ends Nov 7)
@@ -46,13 +46,15 @@ Extend the Wizard Stylus IDE with an embedded Google Gemini assistant that helps
 **Progress Summary:** Added bouncing-dot “thinking” state, refined copy, documented dependencies, and compiled PR summary. Lint run exposed unrelated legacy warnings that still need follow-up.
 
 ## Final Wrap-Up
-- **Main Repository Link:** [Wizard Assistant](https://github.com/DruxAMB/wizard.git)
-- **Demo / Deployment Link (if any):** _Not yet hosted; feature runs locally via `npm run dev`._  
-- **Slides / Presentation (if any):** _N/A_
+- **Main Repository Link:** [Wizard Assistant](https://github.com/DruxAMB/wizard-assistant)
+- **Video Demo:** [Walkthrough Video](https://youtu.be/y6zdU5XzJ9Q) 
+- **Slides / Presentation:** [Slides](https://gamma.app/docs/Unleash-Arbitrum-Contract-Development-with-Wizard-Stylus-IDE-p5p7xqdf3352mxf)
+- **Deployed Contract in the Demo:** [0xF29d3AEaf0cCD69F909FD999AebA1033C6859eAF](https://sepolia.arbiscan.io/address/0xf29d3aeaf0ccd69f909fd999aeba1033c6859eaf)
 
 ## 🧾 Learnings
 - Integrating Gemini safely requires carefully scoped prompts and clear UX disclaimers.  
-- Maintaining a local-only conversation history keeps compliance risk low but adds state-management considerations.  
+- Maintaining a local-only conversation history keeps compliance risk low but adds state-management considerations.
+- What arbitrum stylus is about and building on it.
 - Stylus-specific support is best handled by deferring to canonical docs rather than attempting to synthesize answers.
 
 ## Next Steps
